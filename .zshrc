@@ -12,11 +12,15 @@ fi
 export ZSH="/Users/yutungliu/.oh-my-zsh"
 #export PATH="/anaconda3/bin":$PATH
 
+# eval "$(dircolors -b)"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
+
+# theme
+
 ZSH_THEME="powerlevel10k/powerlevel10k"
 
 # Set list of themes to pick from when loading at random
@@ -84,7 +88,7 @@ plugins=(
     zsh-autosuggestions
     zsh-syntax-highlighting
     web-search
-    copydir
+    copypath
     copyfile
     copybuffer
     dirhistory
@@ -92,6 +96,7 @@ plugins=(
     )
 
 source $ZSH/oh-my-zsh.sh
+
 
 # User configuration
 

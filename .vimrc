@@ -3,7 +3,6 @@ filetype off                  " required
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
-" =+=============
 Plugin 'preservim/nerdtree'
 Plugin 'jiangmiao/auto-pairs'
 Plugin 'arcticicestudio/nord-vim'
