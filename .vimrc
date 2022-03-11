@@ -42,6 +42,7 @@ set wildmode=list:longest
 set ruler
 set foldmethod=indent
 set nofoldenable
+set belloff=all
 
 " set folding
 "set foldmethod=syntax
