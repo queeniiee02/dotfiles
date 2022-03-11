@@ -40,6 +40,8 @@ set history=1000
 set wildmenu
 set wildmode=list:longest
 set ruler
+set foldmethod=indent
+set nofoldenable
 
 " set folding
 "set foldmethod=syntax
@@ -70,4 +72,4 @@ autocmd VimEnter * NERDTree | wincmd p
 " Exit Vim if NERDTree is the only window remaining in the only tab.
 autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTree') && b:NERDTree.isTabTree() | quit | endif
 
-colorscheme nord
+" colorscheme nord
