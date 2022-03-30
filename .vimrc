@@ -22,6 +22,7 @@ filetype plugin indent on    " required
 " Put your non-Plugin stuff after this line
 filetype plugin on
 syntax on
+set mouse=a
 set number
 set cursorline
 set shiftwidth=4
