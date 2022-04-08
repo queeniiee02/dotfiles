@@ -6,6 +6,7 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'preservim/nerdtree'
 Plugin 'jiangmiao/auto-pairs'
 Plugin 'arcticicestudio/nord-vim'
+Plugin 'tpope/vim-surround'
 " ===============
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -77,6 +78,12 @@ autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTr
 " ========================"
 nnoremap J 5j
 nnoremap K 5k
+nnoremap W 3w
+nnoremap E 3e
+nnoremap B 3b
+" ==========================""
+set splitbelow
+set splitright
 
-"
+
 colorscheme nord
