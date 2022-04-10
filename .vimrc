@@ -76,14 +76,15 @@ autocmd VimEnter * NERDTree | wincmd p
 autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTree') && b:NERDTree.isTabTree() | quit | endif
 
 " ========================"
-nnoremap J 5j
-nnoremap K 5k
+nnoremap J 4j
+nnoremap K 4k
 nnoremap W 3w
 nnoremap E 3e
 nnoremap B 3b
 " ==========================""
 set splitbelow
 set splitright
+set background=dark
 
 
 colorscheme nord
