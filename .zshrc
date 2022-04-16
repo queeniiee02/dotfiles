@@ -9,7 +9,6 @@ fi
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/yutungliu/.oh-my-zsh"
 #export PATH="/anaconda3/bin":$PATH
 
 # eval "$(dircolors -b)"
@@ -20,9 +19,12 @@ export ZSH="/Users/yutungliu/.oh-my-zsh"
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 
 # theme
-
+ANDROID_HOME=$HOME/Android/Sdk
 ZSH_THEME="powerlevel10k/powerlevel10k"
 
+export ZSH="/Users/yutungliu/.oh-my-zsh"
+export JAVA_HOME=$(/usr/libexec/java_home -v 1.8.0_322)
+export ANDROID_HOME=$HOME/Library/Android/Sdk
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
 # a theme from this variable instead of looking in $ZSH/themes/
