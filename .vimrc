@@ -87,4 +87,3 @@ set splitright
 set background=dark
 
 
-colorscheme nord
